@@ -117,7 +117,7 @@ spec:
               readOnly: true
           resources:
             limits:
-              cpu: "1"
+              cpu: "0.5"
               memory: 1024Mi
               # Solr can be heavy on logs, reserve enough space for that!
               ephemeral-storage: 4Gi

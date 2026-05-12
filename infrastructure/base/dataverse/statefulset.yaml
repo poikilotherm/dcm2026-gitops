@@ -40,7 +40,7 @@ spec:
                 name: dataverse-env-vars
           resources:
             limits:
-              cpu: "1"
+              cpu: "0.75"
               memory: 2.5Gi
               ephemeral-storage: 2Gi
             requests:
