@@ -15,7 +15,7 @@ resources:
 images:
   - name: _dataverse
     newName: gdcc/dataverse
-    newTag: 6.10.1-noble
+    newTag: latest
   - name: _configbaker
     newName: gdcc/configbaker
     newTag: unstable
