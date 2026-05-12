@@ -117,13 +117,13 @@ spec:
               readOnly: true
           resources:
             limits:
-              cpu: "2"
-              memory: 1536Mi
+              cpu: "1"
+              memory: 1024Mi
               # Solr can be heavy on logs, reserve enough space for that!
               ephemeral-storage: 4Gi
             requests:
-              cpu: "1"
-              memory: 768Mi # = 75% for heap, which will always be allocated!
+              cpu: "0.1"
+              memory: 512Mi # = 75% for heap, which will always be allocated!
               ephemeral-storage: 1Gi
           startupProbe:
             httpGet:
